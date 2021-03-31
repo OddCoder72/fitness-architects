@@ -1,0 +1,281 @@
+#curious {
+  text-align: center;
+  margin: 5rem;
+}
+
+#contact > .flexible {
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(255, 255, 255, 0.87);
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #252525;
+}
+
+u {
+    text-decoration-color: #00E676;
+    text-decoration-thickness: 0.2rem;
+}
+
+.values > li > div > p u {
+    text-decoration-color: rgba(255, 255, 255, 0.87);
+}
+
+.main-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  margin: 2rem;
+}
+
+.header-link {
+  font-size: 1rem;
+  display: inline;
+  padding: 0 1rem;
+  list-style: none;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+    color: #00E676;
+    transition: 0.75s;
+}
+
+.material-icons.icon {
+    font-size: 36px;
+    padding: 2rem;
+}
+
+.main-footer {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem;
+  overflow: hidden;
+}
+
+.footer-column-container {
+  display: inherit;
+}
+
+.footer-column {
+  padding: 0 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  color: #00E676;
+}
+
+.content {
+  padding: 2.5rem 7rem;
+}
+
+.content > h3 {
+    margin: 1.2rem 0rem;
+}
+
+.flexible {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin: 1.5rem 0;
+  align-items: center;
+}
+
+.flexible.card {
+    margin: 5rem 0;
+    flex-wrap: wrap;
+}
+
+.shop-flex {
+  display: inline-flex;
+  display: -webkit-inline-flex;
+  
+}
+
+.category {
+  
+}
+
+.linfo {
+   width: 60%;
+}
+
+.linfo > h1 {
+  margin: 1.5rem 0;
+}
+
+.linfo > p {
+  margin: 0rem 0rem 2rem;
+  width: 75%; 
+  font-size: larger; 
+}
+
+.rinfo {
+  margin: 3.5rem;
+  /* width: 40%; */
+}
+
+img {
+  max-width: 650px;
+  height: auto;
+}
+
+.big-icon {
+  font-size: 5rem;
+  padding: 2rem;
+  align-content: center;
+}
+
+.product-card {
+  width: 18rem;
+  height: 20rem;
+  background-color: #555;
+  border-radius: 2rem;
+  margin: 0 3rem;
+}
+
+.product-card * {
+  border-radius: 2rem;
+  background-color: #555;
+  max-width: 18rem;
+  height: auto;
+}
+
+.product-card > .top * {
+  background-color: #FFF;
+  color: #252525;
+  text-align: center;
+  border: 4rem;
+  padding: 1rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.product-card > .top {
+  max-height: 104px;
+  overflow: hidden;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.product-card > .bottom {
+  border: 4rem;
+  padding: 1rem;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.button, input[type="submit"] {
+  text-align: center;
+  background-color: #00E676;
+  color: #252525;
+  padding: 0.5rem 1rem;
+  border: 5rem;
+  border-radius: 2rem;
+  position: relative;
+  top: 1rem;
+}
+
+.bottom > .button {
+  display: block;
+  text-align: center;
+  background-color: #00E676;
+  color: #252525;
+  padding: 0.5rem 1rem;
+  border: 5rem;
+  border-radius: 2rem;
+  position: relative;
+  top: 0.5rem;
+}
+
+.button:hover, input[type="submit"]:hover {
+  color: #fff;
+  background-color: #2eb85e;
+  transition: 1s;
+}
+
+input[type=text], input[type=email] {
+  width: 100%;
+  margin: 1.5rem 0 2rem;
+  padding: 0.5rem;
+  border: none;
+  border-bottom: 0.2rem #464646 solid;
+  outline: none;
+  background-color: #252525;
+}
+
+.rinfo > li {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.required::after {
+    content: ' *';
+    color: rgba(255, 92, 92, 0.6)
+}
+
+/*--Testing--*/
+h3 {
+    margin: 2rem 0rem;
+}
+
+.whoweare {
+    padding: 2.5rem 7rem;
+}
+
+.values {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.values > li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 35%;
+    justify-content: center;
+    margin: 4rem 0;
+}
+
+.values > li > div > h2 {
+    margin: 2rem 0rem;
+    font-size: 2.2rem;
+}
+
+.values > li > span.material-icons.icon {
+    font-size: 5rem;
+}

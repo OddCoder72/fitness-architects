@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="theme-color" content="#252525">
+    <title>About</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" />
+    <link rel="mask-icon" href="/assets/mask-icon.svg" color="#252525">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+
+  <body>
+    <!--Header-->
+    <header class="main-header">
+      <a href="/" class="logo"><img src="/assets/logo.svg" width="100px" /></a>
+      <nav>
+        <ul>
+          <li class="header-link"><a href="/">Home</a></li>
+          <li class="header-link"><a href="/about">About</a></li>
+          <li class="header-link"><a href="/shop">Programs</a></li>
+        </ul>
+      </nav>
+      <a href="#"><span class="material-icons icon">shopping_cart</span></a>
+    </header>
+
+    <!--About-->
+    <div class="flexible content">
+      <div class="linfo">
+        <h3>Meet Omar!</h3>
+        <h1>About</h1>
+        <p><u>Omar Khalid</u> is our main fitness instructor.  He is a proud alumnus of both the University of British Columbia and the University of Western Ontario, where he studied nutritional sciences and kinesiology.  With over <u>20 years</u> of training experience, he has trained various <u>award-winning</u> dance and sports teams.  Omar has also developed connections with many therapists, who have assisted him throughout his career.</p>
+      </div>
+      <div class="rinfo">
+        <img src="/assets/gym1.jpeg" alt="An image of a gym with a punching bag">
+      </div>
+    </div>
+
+    <!--Contact-->
+    <div class="content" id="contact">
+      <h1>Get in Touch</h1>
+      <div class="flexible">
+        <form class="linfo">
+          <label for="name" class="required">Name</label><br>
+          <input type="text" id="name" name="fullname" placeholder="Your name here..."><br>
+
+          <label for="email" class="required">Email</label><br>
+          <input type="email" id="email" name="email" placeholder="Your email here..."><br>
+
+          <label for="message" class="required">Message</label><br>
+          <input type="text" id="message" placeholder="Type something..." name="inputmessage"><br>
+
+          <input type="submit" value="Submit">
+        </form>
+
+        <ul class="rinfo">
+          <li>
+            <span class="material-icons icon">mail</span>
+            <p class="email">fitnessarchitects@gmail.com</p>
+          </li>
+          <li>
+            <span class="material-icons icon">call</span>
+            <p class="phone">+1 (778)-123-4567</p>
+          </li>
+          <li>
+            <span class="material-icons icon">room</span>
+            <p class="location">1245 Xdhacks Boulevard</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <footer class="main-footer">
+      <a href="/"><img src="/assets/logo.svg" width="100px"/></a>
+      <div class="footer-column-container">
+        <div class="footer-column">
+          <b><a href="/about">About</a></b>
+          <ul>
+            <li><a href="/about#whoweare">Who we are</a></li>
+            <li><a href="/about#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <b><a href="/shop">Programs & Products</a></b>
+          <ul>
+            <li><a href="/shop#training">Programs</a></li>
+            <li><a href="/shop#equipment">Equipment</a></li>
+          </ul>
+        </div>
+      </div>
+      <p>FitnessArchitects &#xA9; 2021</p>
+    </footer>
+  </body>
+</html>
